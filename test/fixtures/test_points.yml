@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  activity: MyString
+  name: MyString
+  description: MyText
+  result: MyString
+  failMsg: MyString
+  test_case_id: 1
+
+two:
+  activity: MyString
+  name: MyString
+  description: MyText
+  result: MyString
+  failMsg: MyString
+  test_case_id: 1

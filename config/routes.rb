@@ -1,4 +1,10 @@
 Apricot::Application.routes.draw do
+  resources :test_points
+
+
+  resources :requirements
+
+
   resources :test_cases
 
 

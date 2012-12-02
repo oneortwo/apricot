@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Activity:</b>
+  <%= @test_point.activity %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @test_point.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @test_point.description %>
+</p>
+
+<p>
+  <b>Result:</b>
+  <%= @test_point.result %>
+</p>
+
+<p>
+  <b>Failmsg:</b>
+  <%= @test_point.failMsg %>
+</p>
+
+<p>
+  <b>Test case:</b>
+  <%= @test_point.test_case_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_test_point_path(@test_point) %> |
+<%= link_to 'Back', test_points_path %>
